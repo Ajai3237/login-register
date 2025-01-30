@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sevillana&display=swap');
+
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 10px;
+    background: #fff;
+}
+
+.w-100-height {
+    height: 95vh;
+    width: 100%;
+}
+
+.carousel-item {
+    min-height: 300px;
+}
+
+.carousel-caption {
+    margin-bottom: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-weight: bolder;
+    color: rgb(106, 92, 92);
+}
+
+.amound{
+    font-weight: bold;
+    color: rgb(73, 72, 72);
+}
+
+.popu:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.popu{
+    flex-basis: 31%;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.Explore{
+    font-weight: bold;
+}
+.card-titles{
+    color: rgb(118, 99, 99);
+}
+.popu{
+    font-style:italic ;
+}
+.serv{
+    padding-top: 200px;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+
+}
+.testimonial-col img{
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+.testimonial-col p{
+    padding: 0;
+
+}
+.testimonial-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.testimonial-col .fa-solid {
+    color: gold;
+}
+.fa-regular {
+    color: gold; 
+}
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/home8.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hero-btn:hover {
+    border: 1px solid black;
+    background-color: gold;
+    color: black;
+    transition: 1s;
+}

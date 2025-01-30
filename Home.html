@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/17edda2936.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -------------------------------Nav bar--------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="navbar-nav ms-auto mg-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Popular">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleIndicators">Plots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Question">Question</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn text-warning bg-dark px-4 rounded-10" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/home6.jpg" class="d-block w-100-height" alt="img1">
+                <div class="carousel-caption carousel1">
+                    <p>1 / 3</p>
+                    <h5>Discover property <br>More Easily</h5>
+                    <div class="mt-5 d-flex">
+                        <input type="text" class="form-control w-50 rounded-9 search" id="floatinginput"
+                            placeholder="search..">
+                        <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-9">
+                            <i class="fa-solid fa-magnifying-glass"></i>Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home7.jpg" class="d-block w-100-height" alt="img2">
+                <div class="carousel-caption carousel1">
+                    <p>2 / 3</p>
+                    <h5>Looking for dream home? <br>with low price</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home8.jpg" class="d-block w-100-height" alt="img3">
+                <div class="carousel-caption carousel1">
+                    <p>3 / 3</p>
+                    <h5>find your perfect<br>property</h5>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplay"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplay"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <div class="container">
+        <div class="row">
+            <!-- Finland Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 popu ">
+                <div class="card h-100 border-warning">
+                    <img src="img/home1.jpg" class="card-img-top" alt="Beautiful property in Finland">
+                    <div class="card-body">
+                        <h5 class="card-title">Finland</h5>
+                        <h5 class="amount">$2,344 | 2,434 sqft</h5>
+                        <p class="card-text">
+                            Street: Korkeakoulunkatu<br>
+                            City: Mikkeli <br>
+                            State/Province/Area: Southern Savonia <br>
+                            Phone Number: +358 44 186 56473 <br>
+                            Zip Code: 50170 <br>
+                            Country: Finland
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Colombia Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 popu">
+                <div class="card h-100 border-warning">
+                    <img src="img/home2.jpg" class="card-img-top" alt="Beautiful property in Colombia">
+                    <div class="card-body">
+                        <h5 class="card-title">Colombia</h5>
+                        <h5 class="amount">$3,543 | 32,345 sqft</h5>
+                        <p class="card-text">
+                            Street: Carrera 94 <br>
+                            City: Bogotá <br>
+                            State/Province/Area: Cundinamarca <br>
+                            Phone Number: +57 334 186 34345 <br>
+                            Zip Code: 16545 <br>
+                            Country: Colombia
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Brazil Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 popu ">
+                <div class="card h-100 border-warning">
+                    <img src="img/home3.jpg" class="card-img-top" alt="Beautiful property in Brazil">
+                    <div class="card-body">
+                        <h5 class="card-title">Brazil</h5>
+                        <h5 class="amount">$5,445 | 43,256 sqft</h5>
+                        <p class="card-text">
+                            Street: Avenida Paulista 94 <br>
+                            City: São Paulo <br>
+                            State/Province/Area: São Paulo <br>
+                            Phone Number: +55 13 186 133 <br>
+                            Zip Code: 01311-200 <br>
+                            Country: Brazil
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Canada Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 popu ">
+                <div class="card h-100 border-warning">
+                    <img src="img/home4.jpg" class="card-img-top" alt="Beautiful property in Canada">
+                    <div class="card-body">
+                        <h5 class="card-title">Canada</h5>
+                        <h5 class="amount">$3,657 | 3,453 sqft</h5>
+                        <p class="card-text">
+                            Street: Granville Street 94 <br>
+                            City: Vancouver <br>
+                            State/Province/Area: British Columbia <br>
+                            Phone Number: +1 604 123 4567 <br>
+                            Zip Code: V6Z 1Y6 <br>
+                            Country: Canada
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <section class="container" style="margin-top:10x;" id="Popular">
+        <p class="pt-5">Popular</p>
+        <div class="d-flex">
+            <h2>Our Popular Residance</h2>
+            <button type="button" class="btn btn-outline-warning ms-auto px-1">Explore All</button>
+
+        </div>
+
+        <div class="row ">
+            <div class="col-md-4 col-sm-4 col-4 mt-4  popu">
+                <div class="card text-bg-dark w-100 ">
+                    <img src="img/home-2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Finland</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-ms-4 col-4 mt-4 popu ">
+                <div class="card text-bg-dark w-100">
+                    <img src="img/home-3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">aaaaaaa</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-4 mt-4 popu">
+                <div class="card text-bg-dark w-100">
+                    <img src="img/home-2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Canada</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------  -->
+    <section class="container" style="margin-top:10x;" id="Services">
+        <div class="d-flex">
+            <h2 class="pt-5">Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-ms-6 col-12 mt-4 popu ">
+                <div class="card text-bg-dark w-100  border-warning">
+                    <img src="img/about.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h2 class="card-titles ">Sheen Road</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-ms-6 col-12 mt-4 popu serv">
+                <h3>Marketing and Advertising</h3>
+                <p>you want to sell your home in Wollert but struggle to find potential buyers. Hiring an experienced
+                    real estate agency in Wollert is the best decision in this scenario. Why?
+
+                    A good real estate agency can provide creative marketing and advertising strategies to help you
+                    attract potential buyers and sell your home quickly.
+
+                    Examples of what they bring to the table for advertising are
+
+                    A real estate agency can arrange for professional photographers to capture stunning pictures of your
+                    property and create virtual tours to showcase it.
+
+                    Social media marketing is one of the best ways to advertise. With so many people spending hours
+                    scrolling through different social media platforms, it’s no surprise that real estate agencies are
+                    using these platforms to advertise properties.
+
+                    Most real estate agencies have a database of potential buyers. So they can use email marketing to
+                    promote your property.
+
+                    Lastly, they can organize open houses or events to display their homes to potential buyers.
+
+                    With a real estate agency’s expertise in marketing and advertising, you can rest assured that your
+                    property will get the attention of buyers.</p>
+            </div>
+
+
+            <div class="col-md-6 col-ms-6 col-12 mt-4 popu serv">
+                <h3>Property Search</h3>
+                <p>We can understand how exhausting finding your ideal property in your prefered area would be. Real
+                    estate agents find the property search a breeze. But how?
+
+                    Have you heard of multiple listing services (MLS)? Well, you probably do not because only real
+                    estate agents can access multiple listing services. It is a service run by real estate brokers where
+                    brokers come together to create an exclusive database of the properties available for sale. The MLS
+                    allows real estate agents to see properties listed for sale in every location.
+
+                    Another interesting part is that real estate agents have access to confidential properties. Let’s
+                    put it simply: If you want to sell a house, you advertise, hire a real estate agent, or put a “for
+                    sale” sign on your property. But what if you don’t want to sell it publicly?
+
+                    This is called confidential real estate. So, only real estate agents will have the complete details
+                    of the properties that are put up for sale and sign the best deal for you.
+
+                    So, no more hitting the wall in doing property searches. Rather, hire a real estate agency and let
+                    them do the property search for you.</p>
+            </div>
+
+            <div class="col-md-6 col-ms-6 col-12 mt-4 popu ">
+                <div class="card text-bg-dark w-100  border-warning ">
+                    <img src="img/project-3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h2 class="card-titles ">East Road</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ---------------------------------------------------------------------------------- -->
+    <div class="container Review" id="Review">
+        <section class="testimonials">
+            <h1>What our client says</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus praesentium numquam veritatis
+                suscipit enim, quas maiores qui error voluptates optio. Velit nihil
+                dicta ipsum
+            </p>
+
+            <div class="row">
+                <div class="col-md-6 col-ms-6 col-6 mt-4  ">
+                    <div class="testimonial-col">
+                        <img src="img/team-3.png" alt="">
+                        <div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, voluptatibus nulla? La
+                                boriosam esse quae dolorum, repellat distinctio ullam eaque nisi!</p>
+                            <h3>Christine Berklrey</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-ms-6 col-6 mt-4  ">
+                    <div class="testimonial-col">
+                        <img src="img/team-2.png" alt="">
+                        <div>
+
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, voluptatibus nulla? La
+                                boriosam esse quae dolorum, repellat distinctio ullam eaque nisi!</p>
+                            <h3>David</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------- -->
+
+
+    <div class="container" id="Question">
+        <section class="cta">
+            <h1>Any questions?<br>
+                We're happy to help</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+
+        </section>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <div class="container">
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ea illum consequatur
+                doloribus quam, repellendus eius repellat iure alias amet dolor tempore beatae ut corrupti, explicabo
+                assumenda fugiat, libero vitae.</p>
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </div>
+
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <script src="comm.js"></script> -->
+
+
+
+
+</body>
+
+</html>
