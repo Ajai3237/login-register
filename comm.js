@@ -2,7 +2,8 @@ class UserManagement {
     dataBase = {
         milan: { username: 'milan', email: 'milan121@gmail.com', Password: 'milan123' },
         tode: { username: 'tode', email: 'tode343@gmail.com', Password: 'tode232' },
-        tony: { username: 'tony', email: 'tiny676@gmail.com', Password: 'tony787' }
+        tony: { username: 'tony', email: 'tiny676@gmail.com', Password: 'tony787' },
+        leo:{username:'leo',email:'leo123@gmail.com',Password:'leo123'}
     }
     saveData() {
        localStorage.setItem("userData",JSON.stringify(this.dataBase))
